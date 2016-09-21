@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">Conf2</string>
+    
+    
+      <string-array name="titles">
+          <item>Catálogos</item>
+          <item>Provador Online</item>
+          <item>Encontre um representante mais próximo</item>
+          <item>Fale Conosco</item>
+          </string-array>
+
+</resources>

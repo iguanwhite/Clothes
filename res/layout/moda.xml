@@ -1,0 +1,37 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff" >
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_weight="1" >
+
+        <ImageButton
+            android:id="@+id/buttonMasc"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="@drawable/masculina"
+            android:scaleType="fitXY" />
+
+ 
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_weight="1" >
+
+        <ImageButton
+            android:id="@+id/buttonFem"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="@drawable/feminino"
+            android:scaleType="fitXY" />
+    </TableRow>
+
+</TableLayout>
